@@ -12,10 +12,6 @@ The accuracy is calculated by **Quadratic Weighted Kappa(QWK)**, which measures 
 ### Performance Correction
 The performance above might not be accurate. Please review [this issue](https://github.com/mankadronit/Automated-Essay--Scoring/issues/1) to know more.
 
-<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC1.png" width="100%">
-<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC2.png" width="100%">
-<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC3.png" width="100%">
-
 
 ## Requirements
 please goto `requirements.txt`
