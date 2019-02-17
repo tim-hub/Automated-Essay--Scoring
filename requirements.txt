@@ -1,7 +1,6 @@
 django
 django-widget-tweaks
-theano
-gensimy
+gensim
 scipy
 tensorflow
 keras

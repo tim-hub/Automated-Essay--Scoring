@@ -9,24 +9,16 @@ The **mysite** folder contains the Django app if you want an interactive demo.
 The accuracy is calculated by **Quadratic Weighted Kappa(QWK)**, which measures the agreement between two raters. The state of the art implementation in this competition achieved a **QWK score of 0.82** six years ago. My model achieves a **QWK score of 0.961**. The model architecture consists of 2 Long Short Term Memory(LSTM) layers with a Dense output layer. The final layer uses the Relu activation function. The QWK is calculated by training model on the dataset using 5-Fold Cross Validation and taking the average for all five folds.
 
 
+### Performance Correction
+The performance above might not be accurate. Please review [this issue](https://github.com/mankadronit/Automated-Essay--Scoring/issues/1) to know more.
+
 <img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC1.png" width="100%">
 <img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC2.png" width="100%">
 <img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC3.png" width="100%">
 
 
 ## Requirements
-- Tensorflow 1.9
-- Keras 2.2.2
-- Django 2.1
-- Gensim 3.5
-
-```
-pip install tensorflow
-pip install keras
-pip install django
-pip install gensim
-
-```
+please goto `requirements.txt`
 
 ## Installation 
 - Clone the repo
